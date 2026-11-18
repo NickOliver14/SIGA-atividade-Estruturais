@@ -56,3 +56,7 @@ Ao final, verifique que: (a) a situação da aluna `2024003` é a **mesma** nos 
 Conforme a ficha de atividade prática: identificadores em português, um arquivo `.java` por classe pública, código formatado, entrega no repositório Git com README e commits descritivos. O uso de IA para gerar o código é proibido nesta atividade (ver seção 5.3 da ficha).
 
 > **Projeto Integrador:** a Etapa 2, com entrega na Aula 13, exige a aplicação justificada de ao menos um padrão estrutural. O que você produzir aqui pode ser aproveitado nela — desde que a justificativa descreva o problema do SIGA, e não apenas o nome do padrão.
+
+etapa 1:
+A regra que lê os dados do sistema legado foi duplicada em duas classes que fazem essa conversão de jeitos diferentes.
+Isso causou um bug em que o mesmo aluno aparece ativo em um lugar e inativo no outro por causa de uma letra minúscula.
