@@ -60,3 +60,6 @@ Conforme a ficha de atividade prática: identificadores em português, um arquiv
 etapa 1:
 A regra que lê os dados do sistema legado foi duplicada em duas classes que fazem essa conversão de jeitos diferentes.
 Isso causou um bug em que o mesmo aluno aparece ativo em um lugar e inativo no outro por causa de uma letra minúscula.
+
+etapa 5:
+Justifiquei os padrões focando na intenção de cada um, usei o Adapter para traduzir o formato do sistema legado para a nossa interface, centralizando a conversão em um lugar só e resolvendo o bug da letra minúscula, já a Facade foi usada para tirar o peso da tela de matrícula. Em vez da tela gerenciar 6 classes de regras de negócio, a fachada assumiu isso e disponibilizou só um método simples.
